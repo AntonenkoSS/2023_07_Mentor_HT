@@ -1,7 +1,7 @@
 public class Rectangle {
 
-    double width;
-    double length;
+    private double width;
+    private double length;
 
     public Rectangle(double width, double length) {
         if (width<0){width=0;}

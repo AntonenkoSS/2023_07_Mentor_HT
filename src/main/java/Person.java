@@ -2,9 +2,9 @@ public class Person {
 //Write a class with the name Person. The class needs three fields
 // (instance variables) with the names firstName, lastName of type
 // String and age of type int.
-    String firstName;
-    String lastName;
-    int age;
+    private String firstName;
+    private String lastName;
+    private int age;
 
     public String getFirstName() {
         return firstName;
@@ -27,6 +27,7 @@ public class Person {
     }
 
     public void setAge(int age) {
+        if ((age<0)||(age<100)){age=0;}
         this.age = age;
     }
 
@@ -45,7 +46,7 @@ public class Person {
         if(lastName.isEmpty()){
             lastName = "";
         }
-        String a = firstName+' '+lastName;
+        String a = firstName+""+lastName;
         return a;
     }
 
