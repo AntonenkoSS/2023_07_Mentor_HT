@@ -6,7 +6,7 @@ package HT_2.burgers;
 // chips and a drink for a base price of $19.10. The constructor can be configured in any way, as long
 // as chips and drink are added for the total price just mentioned. In this class, the four(4) methods
 // defined in the Hamburger class for including additional toppings must each be overridden so that a
-// message is printed stating that no additional items can be added to a deluxe burger.
+// message is printed stating that no additional items can be added to a deluxe burger.99
 
 
 public class DeluxeBurger extends Hamburger {
