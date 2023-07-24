@@ -1,6 +1,6 @@
 public class Carpet {
 
-    double cost;
+    private double cost;
 
     public Carpet(double cost) {
         if (cost<0){cost=0;}
